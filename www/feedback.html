@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class = "Page6">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <title>Harvest Festival</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel = 'stylesheet' type = "text/css" href = "styles/d1.css">
+  <script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="scripts/validation.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+  <h1>Ithaca Apple Harvest Festival</h1>
+
+  <nav>
+    <ul>
+      <li><a class="nav-text" href="index.html">HOME</a></li>
+      <li><a class="nav-text" href="about.html">ABOUT</a></li>
+      <li><a class="nav-text" href="directions.html">DIRECTIONS</a></li>
+      <li><a class="nav-text" href="food.html">DINING</a></li>
+      <li><a class="nav-text" href="contact.html">CONTACT</a></li>
+      <li><a class="nav-text" href="feedback.html">FEEDBACK</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h3> Feedback </h3>
+    <p id = "fd_message"> <em> Your feedback is valuable and will help us improve the design and content of this website. </em> </p>
+    <form id="feedbackForm" method="post" action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
+      <div>
+        <label for="user-name">Name:* </label>
+        <input id="user-name" name="user-name" placeholder="First and Last Name" required/>
+        <span class="errorContainer1 hidden" id="name-error">
+          Please enter your name.
+        </span>
+      </div>
+
+      <div>
+        <label for="user-email">Email:* </label>
+        <input type = "email" id="user-email" name="user-email" required placeholder="Your Email"/>
+        <span class="errorContainer1 hidden" id="email-error"> Please enter an email.
+        </span>
+        <span class="errorContainer1 hidden" id="email-error2"> Please enter a valid email.
+        </span>
+
+      </div>
+
+      <div>
+        <label for="attendance">Did you attend the Apple Harvest Festival? </label>
+        <select id="attendance" name="attendance">
+          <option value="yes">yes, I attended.</option>
+          <option value="no">no, I did not attend.</option>
+        </select>
+      </div>
+
+
+      <div>
+        <label for = "festivalFeedback">If you attended, what was your overall impression of the Festival? What was your favorite aspect?</label>
+        <p class = "feedback"><textarea id="festivalFeedback" name="festivalFeedback" required></textarea>
+        </p>
+      </div>
+
+      <div>
+        <label for="websiteVisit">Did you visit the website before going to the Festival? </label>
+        <select id="websiteVisit" name="websiteVisit">
+          <option value="yes">yes, I did.</option>
+          <option value="no">no, I did not.</option>
+          <option value="did not attend">I did not go to the Festival.</option>
+        </select>
+      </div>
+
+      <div>
+        <label for = "websiteFeedback">What are your thoughts on this website? Was it helpful for you? What can it improve upon?*</label>
+        <span class="errorContainer2 hidden" id="website-feedback-error"> Please share your thoughts.</span>
+        <p class = "feedback"><textarea id="websiteFeedback" name="websiteFeedback" required></textarea>
+        </p>
+      </div>
+
+      <button type="submit" class="submit">SUBMIT</button>
+      <span class="errorContainer2 hidden" id="submission-error"> ERROR: Please check your submission.</span>
+
+
+    </form>
+  </section>
+
+  <a href="https://www.pexels.com/photo/autumn-autumn-colours-autumn-leaves-beautiful-355302/" class = "back">Background Image Source</a>
+</body>
+</html>

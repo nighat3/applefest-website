@@ -1,0 +1,443 @@
+/* Source for background Image: Pexels, https://www.pexels.com/photo/autumn-autumn-colours-autumn-leaves-beautiful-355302/ */
+
+/**I used my Info 1300 lab 10 solution as a reference for this project.**/
+
+/** Entire Page: background changes
+**/
+
+.Page1{
+  background: url(../images/autumn2.png);
+  background-size: cover;
+}
+.Page2{
+  background: url(../images/autumn2.png);
+  background-size: cover;
+}
+.Page3{
+  background: url(../images/autumn2.png);
+  background-size: cover;
+}
+.Page4{
+  background: url(../images/autumn2.png);
+  background-size: cover;
+}
+
+.Page6{
+  background: url(../images/autumn2.png);
+  background-size: cover;
+}
+
+body{
+  text-align: center;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.body1{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+}
+
+main{
+  flex-grow: 2;
+  margin: auto;
+  border: double 3px #000000;
+  border-radius: 25px;
+}
+/**headings**/
+h1{
+  text-align: center;
+  color: #090908;
+  font-size: 40pt;
+  font-family: sans-serif;
+  border-style: none;
+  padding: 5px;
+}
+
+h2{
+  text-align: center;
+  font-size: 20pt;
+  font-family: fantasy;
+  color: #3b1745;
+}
+
+h3{
+  text-align: center;
+  font-size: 16pt;
+  font-family: serif;
+  margin: 30px;
+}
+
+h4{
+  background-color: #17252A;
+  width: 200px;
+  color: #DEF2F1;
+  text-align: center;
+  font-size: 15pt;
+  font-family: sans-serif;
+  margin: auto;
+  padding: 10px;
+  color: #DEF2F1;
+  line-height: 30px;
+
+}
+
+/**navbar**/
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-shrink: 1;
+  flex-grow: 1;
+
+}
+
+nav ul li {
+  background-color: #7e0d17;
+  margin: 10px;
+  flex:auto;
+  display: flex;
+  text-align: center;
+  margin-top: 1px;
+}
+
+nav ul li a {
+  display: flex;
+  color: #ffd37e;
+  flex-shrink: 1;
+  flex-grow: 1;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+li:hover {
+  background-color: #f6bc4a;
+  color: #7e0d17;
+}
+
+/** a tags**/
+a{
+  text-decoration: none;
+  width: 50px;
+  text-align: center;
+  color: #000000;
+  padding: 10px;
+  margin: 0;
+
+}
+
+a:hover{
+  color: #7e0d17;
+}
+
+.bctop{
+  font-size: 14pt;
+  background-color: #ffd37e;
+  border-style: solid;
+  border-color: black;
+}
+
+.bctop:hover{
+  background-color: #7e0d17;
+  color: white;
+}
+
+.email{
+  font-size: 12pt;
+  font-family: serif;
+  background-color: #7e0d17;
+  color: #ffd37e;
+
+}
+
+.email:hover{
+  color: #7e0d17;
+  background-color: #ffd37e;
+}
+
+.back{
+  font-size: 8pt;
+  color: #7e0d17;
+}
+
+.back:hover{
+  background-color: #7e0d17;
+  color: white;
+}
+
+
+/**Images**/
+
+img {
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
+  overflow: hidden;
+  border: 3px solid #7e0d17;
+
+}
+
+.homepic{
+  background-color: inherit;
+  padding: 5px;
+  color: #7e0d17;
+  font-size: 10pt;
+  width: inherit;
+}
+
+.homepic:hover{
+  background-color: #f7ead5;
+  color: #7e0d17;
+
+}
+
+
+.about{
+  background-color: inherit;
+  padding: 5px;
+  color: #7e0d17;
+  font-size: 10pt;
+  width: inherit;
+}
+
+.about:hover{
+  background-color: #7e0d17;
+  color: #f7ead5;
+
+}
+
+/**Icons**/
+i{
+  font-size: 30px;
+}
+
+
+/**Paragraphs**/
+p{
+  color: black;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+
+}
+
+p#details{
+  font-family: serif;
+  font-size: 18pt;
+  font-weight: 700;
+}
+
+p#feedback{
+  padding: 0;
+  margin: 0;
+}
+
+p#fd_message{
+  font-size: 16px;
+}
+
+div#page1{
+  margin: 20px;
+  padding: 20px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+  width: auto;
+  background-color: rgba(237, 167, 102, 0.6);
+}
+div#feedback{
+  line-height: 40px;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+  width: auto;
+
+}
+
+div#food{
+  margin: 10px;
+  padding: 20px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+  width: auto;
+  background-color: rgba(255, 186, 234, 0.5);
+}
+
+div#Contact{
+  margin: 30px;
+  padding: 40px;
+  font-family: sans-serif;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+  width: auto;
+  background-color: rgba(237, 167, 102, 0.8);
+}
+
+/**Forms**/
+
+form{
+  line-height: 40px;
+  background-color: rgba(244, 222, 169, 0.80);
+  margin: 20px;
+
+}
+
+.hidden {
+  display: none !important;
+}
+
+.errorContainer1 {
+  display: inline-block;
+  color: #ff1c1c;
+  padding-left: 3px;
+  font-size: 16px;
+  position: absolute;
+}
+
+.errorContainer2 {
+  display: block;
+  color: #ff1c1c;
+  padding-left: 3px;
+  font-size: 16px;
+}
+
+#feedbackForm div {
+  padding: 10px;
+  margin-right:auto;
+}
+
+#feedbackForm button{
+  width: 130px;
+  height: 40px;
+  background-color: #7e0d17;
+  color: #ffd37e;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+textarea{
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  justify-content: center;
+}
+
+/**Media Queries: Tablet and Mobile Version**/
+/**I used my lab 6 solution as a reference.**/
+
+@media screen and (max-width: 770px) and (min-width: 601px) {
+
+  .nav-text {
+    font-size: 13px;
+
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .body1 {
+    display: block;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+  .homepic{
+    max-width: 100%;
+  }
+
+  .about{
+    max-width: 100%;
+  }
+
+  .email{
+    font-size: 14pt;
+    background-color: #7e0d17;
+
+  }
+
+  nav{
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+  nav ul{
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 0;
+
+  }
+
+  nav ul li{
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+
+  nav ul li a{
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+
+
+  form{
+    padding: 10px;
+    display: block;
+
+  }
+  #feedbackForm div{
+    text-align: center;
+
+  }
+  #feedbackForm label{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  #feedbackForm span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+  }
+
+  #feedbackForm button{
+    width: 100px;
+    height: 30px;
+  }
+
+
+}
